@@ -1,0 +1,249 @@
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: url(images/image1.jpg) center/cover no-repeat;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.about-main{
+     width: 100%;
+  min-height: 100vh;
+  background: url(images/aboutimg.jpg) center/cover no-repeat;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+
+
+
+ h2,h1{
+    font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 3rem;
+  font-weight: bold;
+ }
+.info h1 {
+  font-size: 48px;
+  
+}
+
+
+.info h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.info h4 {
+  font-size: 30px;
+ 
+}
+
+.info span {
+  color: rgb(229, 70, 12);
+}
+
+.hire-btn {
+  background: rgb(36,32,30);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+
+.hire-btn:hover {
+  background: rgb(56,174,209);
+}
+
+
+.icons ion-icon {
+  font-size: 30px;
+  margin: 0 15px;
+  color: #000;
+  transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+  color: rgb(56,174,209);
+}
+
+@media (max-width: 768px) {
+  .info h1 {
+    font-size: 2rem;
+  }
+  .info h4 {
+    font-size: 0.9rem;
+  }
+  .icons {
+    margin-top: 20px;
+  }
+}
+
+
+/* Skills */
+
+/* Skill cards */
+.skill-card {
+  background: rgba(243, 237, 237, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: #0d6efd;
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.2);
+}
+
+/* Badges styling */
+.badge {
+  font-size: 0.9rem;
+  padding: 0.6em 1em;
+  border-radius: 20px;
+}
+
+
+
+/* Navbar hover */
+.nav-link:hover {
+  color: #d91717 !important;
+}
+
+
+/* mywork */
+
+
+/* 💎 Projects Section */
+.projects-section h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+/* 🧊 Card Styling */
+.card {
+  border: none;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ✨ Card Image */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* 📝 Card Content */
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+
+
+/* 💬 Card Footer */
+.card-footer {
+  padding: 15px;
+  background: transparent;
+  border: none;
+  text-align: center;
+}
+
+/* 🌐 Social Icons */
+.icons a {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0 10px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.icons a:hover {
+  color: #0d6efd;
+  transform: translateY(-5px);
+}
+
+
+/* Contact Page Background */
+.contact-body {
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Contact Card */
+.contact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.contact-card:hover {
+  transform: translateY(-5px);
+  border-color: #0d6efd;
+}
+
+/* Form inputs */
+.form-control {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #0d6efd;
+  box-shadow: none;
+  color: #fff;
+}
+
+/* Social Icons */
+.social-icons a {
+  color: #fff;
+  font-size: 1.8rem;
+  transition: 0.3s ease;
+}
+.social-icons a:hover {
+  color: #0d6efd;
+}
+
+
+
+
+
+
+
